@@ -66,16 +66,16 @@ export default function AutoNaijaMart() {
     <div className="min-h-screen bg-gray-50 font-sans text-gray-800">
       {/* Top Navigation Bar */}
       <header className="border-b border-gray-200 bg-white shadow-sm">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
-          <div className="flex items-center space-x-2">
+        <div className="mx-auto flex-col md:flex-row max-w-7xl items-center justify-between px-6 py-2">
+          <div className="flex items-center justify-center space-x-2">
             <span className="mx-3 mb-2">
               🚗
             </span>
-            <span className="text-xl font-black tracking-tight text-blue-900">
+            <span className="text-base justify-center sm:text-lg md:text-xl lg:text-2xl font-black tracking-tight text-blue-900">
                Auto-Naija Mart
             </span>
           </div>
-          <nav className="flex items-center space-x-6 text-sm font-medium text-gray-600">
+          <nav className="flex items-center  space-x-4 sm:space-x-6 text-sm font-medium text-gray-600">
             <a href="#home" className="hover:text-blue-900">Home</a>
             <a href="#search" className="text-blue-900 border-b-2 border-blue-900 pb-1">Search</a>
             <a href="#sell" className="hover:text-blue-900">Chat</a>
